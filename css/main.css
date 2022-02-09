@@ -1,7 +1,14 @@
 @charset "utf-8";
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
 
 /* 초기값 */
-* {margin:0; padding:0;}
+* { font-family: 'pretendard-Regular';
+    margin:0; padding:0;}
 li {list-style: none;}
 a {
     text-decoration: none;
@@ -37,7 +44,7 @@ header div h1 {
 
 /* 메인비주얼 영상 */
 .main_visual {
-    background-color: #CA9D8E;
+    background-color: #272727;
     padding: 100px 0 150px;
 }
 .main_visual div {
@@ -142,6 +149,9 @@ header div h1 {
     width: 35%;
     word-break: break-all;/* 글자 줄바꿈 */
 }
+.motion .info .text p {
+    margin-top: 10px;
+}
 .motion .info .text dl {
     display: flex;
     margin-top: 7px;
@@ -235,7 +245,6 @@ h4 {
     text-align: center;
     font-size: 18px;
     background: #fff;
-
     /* Center slide text vertically */
     /* display: -webkit-box;
     display: -ms-flexbox;
