@@ -179,7 +179,7 @@ header div h1 {
 }
 .motion .thum ul li figure {
     width: 100%;
-    height: 13vw;
+    height: 10vw;
     /* 100vh => 브라우저 높이 전체 
         100vw => 브라우저 가로 전체
     */
